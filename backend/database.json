@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Yousef AL Bakri",
+      "email": "yousef204b@gmail.com",
+      "password": "$2a$10$iqW5yRdjRqblz40DmfrkGeBw/DdMQHvKJ.UiWm6vlDJczjgexYOsy",
+      "role": "admin",
+      "verified": false
+    },
+    {
+      "id": 2,
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "$2a$10$RtbybqFjjEgZje5oeUvw.ucg.EbYUA1PITWeYAuZn4H5xTEvsj.aq",
+      "role": "admin",
+      "verified": false
+    },
+    {
+      "id": 3,
+      "name": "dasdas",
+      "email": "oxaamgbpn7459@oxaam.com",
+      "password": "$2a$10$3Thyv.IMdpf2KMg3OrYrfefipx.5N3rjzmsgaJQwfNi3gi2HUQAsS",
+      "role": "admin",
+      "verified": false
+    },
+    {
+      "id": 4,
+      "name": "asdasdasd",
+      "email": "azzez@gmail.com",
+      "password": "$2a$10$QHrjTyFp4Zvf7BNCc0Pnv.ASnN5Cn0VCD2PAdpeLiVfV99c4qx5ry",
+      "role": "customer",
+      "verified": false
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "description": "Electronic devices and gadgets"
+    },
+    {
+      "id": 2,
+      "name": "Clothing",
+      "description": "Fashion and apparel"
+    },
+    {
+      "id": 3,
+      "name": "Books",
+      "description": "Books and literature"
+    },
+    {
+      "id": 4,
+      "name": "fgfg",
+      "description": "fgfg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "categoryId": 1,
+      "price": 999,
+      "description": "High-performance laptop"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "categoryId": 1,
+      "price": 699,
+      "description": "Latest smartphone model"
+    },
+    {
+      "id": 3,
+      "name": "T-Shirt",
+      "categoryId": 2,
+      "price": 29,
+      "description": "Cotton t-shirt"
+    },
+    {
+      "id": 4,
+      "name": "Jeans",
+      "categoryId": 2,
+      "price": 59,
+      "description": "Denim jeans"
+    },
+    {
+      "id": 5,
+      "name": "Novel Book",
+      "categoryId": 3,
+      "price": 15,
+      "description": "Bestselling novel"
+    },
+    {
+      "id": 6,
+      "name": "Headphones",
+      "categoryId": 1,
+      "price": 149,
+      "description": "Wireless headphones"
+    }
+  ]
+}
