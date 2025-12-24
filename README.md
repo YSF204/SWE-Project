@@ -48,7 +48,7 @@ backend/
 
 ### Frontend Structure
 
-```
+```,
 src/
 ├── App.jsx                  # Main app with routing
 ├── context/
