@@ -6,6 +6,7 @@ import productRoutes from './routes/productRoutes.js';
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+app.options('*', cors());
 
 // Middleware
 app.use(cors({
